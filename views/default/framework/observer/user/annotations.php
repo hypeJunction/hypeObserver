@@ -3,9 +3,9 @@
 $observer = elgg_get_logged_in_user_entity();
 $user = elgg_get_page_owner_entity();
 
-//if (!hj_observer_is_observer_of($observer, $user)) {
-//	return;
-//}
+if (!hj_observer_is_observer_of($observer, $user)) {
+	return;
+}
 
 
 $ia = elgg_set_ignore_access(true);

@@ -50,9 +50,9 @@ function hj_observer_page_handler($page) {
 				$observed_user = get_user_by_username($page[1]);
 			}
 
-//			if (!hj_observer_is_observer_of($user, $observed_user)) {
-//				forward('observer/dashboard');
-//			}
+			if (!hj_observer_is_observer_of($user, $observed_user)) {
+				forward('observer/dashboard');
+			}
 
 			elgg_set_page_owner_guid($observed_user->guid);
 
