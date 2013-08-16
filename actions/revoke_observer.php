@@ -5,9 +5,7 @@ $user = get_entity($guid);
 
 if (elgg_instanceof($user, 'user')) {
 	$site = elgg_get_site_entity();
-	if (check_entity_relationship($user->guid, 'observer', $site->guid)) {
-		remove_entity_relationship($user->guid, 'observer', $site->guid);
-	} else {
+	if (!remove_entity_relationships($user->guid, 'observer')) {
 		$error = true;
 	}
 } else {

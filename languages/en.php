@@ -35,7 +35,7 @@ $english = array(
 	'hj:observer:noobservers' => 'There are no observer accounts on this site',
 
 	'hj:observer:user' => 'Observer',
-	'hj:observer:manage' => 'Observed users',
+	'hj:observer:manage' => 'Manage observed users',
 	'hj:observer:notfound' => 'Observer was not found',
 	'hj:observer:observed_users' => 'Observed users',
 	'hj:observer:observed_users:add' => '%s users added to the observed users list',
@@ -48,7 +48,7 @@ $english = array(
 	'hj:observer:observed_users_groups:error' => '%s relationships could not be established. Possibly due to conflicts in the hierarchy of user roles',
 
 	'hj:observer:make_observer' => 'Make observer',
-	'hj:observer:revoke_observer' => 'Remove observer restrictions',
+	'hj:observer:revoke_observer' => 'Lift observer restrictions',
 	'hj:observer:make_observer:success' => 'Observer restrictions were applied successfully',
 	'hj:observer:make_observer:error' => 'Observer restrictions could not be applied',
 	'hj:observer:revoke_observer:success' => 'Observer restrictions were lifted successfully',
